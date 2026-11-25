@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aira-layanan-umpan-intelijen-risiko-domain-keama"
+version = "0.1.0"
+description = 'Layanan Umpan Intelijen Risiko Domain & Keamanan Otomatis (Pay-Per-Query x402)'
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["x402", "http-402", "usdc", "ai-agents", "asgi", "fastapi", "crypto-payments"]
+dependencies = []
+
+[project.scripts]
+x402-gate = "aira_layanan_umpan_intelijen_risiko_domain_keama.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

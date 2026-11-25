@@ -1,0 +1,18 @@
+{
+  "venture_id": "ven-05b876958a",
+  "title": "Layanan Umpan Intelijen Risiko Domain & Keamanan Otomatis (Pay-Per-Query x402)",
+  "niche_category": "micro_saas_intel_feed",
+  "payout_wallets": {
+    "evm": "0xD1d2b5a2665C75fb80Fb069Ce04D1fe711a2B349",
+    "solana": "BgagbXYr125qDFic7cp73SxuSXkwGiUVU7RqnbQD8Ffe"
+  },
+  "expected_return_usd": 30.0,
+  "artifacts_sha256": {
+    "openapi_x402_spec.json": "6769be8ef4f0c029",
+    "test_venture_engine.py": "739a3f0189e1a111",
+    "test_venture_gtm.py": "6fc0289e1d8f8b1b",
+    "venture_engine.py": "6e618f201ff67873",
+    "VENTURE_PLAYBOOK.md": "8ec8732b81fed31d"
+  },
+  "ready_for_external_publish": true
+}
